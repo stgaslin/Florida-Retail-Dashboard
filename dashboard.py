@@ -1,8 +1,6 @@
 import os
 port = int(os.environ.get("PORT", 8501))
 import streamlit as st
-st.title("Hello, Florida Retail Dashboard")
-st.write("More features coming soon!")
 import pandas as pd
 import numpy as np
 import os
